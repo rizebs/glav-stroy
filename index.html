@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ООО «Глав-Строй» — Алюминиевые конструкции и фасады</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+
+  <!-- Шапка с реквизитами -->
+  <header class="bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-lg bg-red-700 flex items-center justify-center font-bold text-white text-xl shadow-sm">ГС</div>
+        <div>
+          <h1 class="font-bold text-lg tracking-tight text-slate-900">ООО «ГЛАВ-СТРОЙ»</h1>
+          <p class="text-xs text-slate-500">ИНН: 7746713306 | ОГРН: 1197746713306</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 w-full md:w-auto justify-between md:justify-end">
+        <a href="https://wa.me/79255555558" target="_blank" class="px-3.5 py-2 rounded-lg bg-emerald-50 text-emerald-700 text-xs font-semibold flex items-center gap-1.5 hover:bg-emerald-100 transition">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+        </a>
+        <a href="https://t.me/+79255555558" target="_blank" class="px-3.5 py-2 rounded-lg bg-sky-50 text-sky-600 text-xs font-semibold flex items-center gap-1.5 hover:bg-sky-100 transition">
+          <i class="fa-brands fa-telegram text-sm"></i> Telegram
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-12">
+    
+    <!-- О компании и руководство -->
+    <section class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+      <div class="space-y-3">
+        <span class="text-xs font-bold uppercase tracking-wider text-red-700">Официальный сайт</span>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">Собственное производство алюминиевых конструкций</h2>
+        <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+          Проектирование, изготовление и монтаж светопрозрачных систем и фасадных решений для масштабных объектов жилой и коммерческой недвижимости.
+        </p>
+      </div>
+      
+      <div class="pt-4 border-t border-slate-100 grid sm:grid-cols-2 gap-4 text-sm">
+        <div>
+          <span class="block text-slate-400 text-xs uppercase font-medium">Генеральный директор</span>
+          <span class="font-bold text-slate-900 text-base">Гнатишин Вячеслав</span>
+        </div>
+        <div>
+          <span class="block text-slate-400 text-xs uppercase font-medium">Прямая связь</span>
+          <a href="tel:79255555558" class="font-bold text-red-700 hover:underline text-base">+7 (925) 555-55-58</a>[span_0](start_span)[span_0](end_span)
+        </div>
+      </div>
+    </section>
+
+    <!-- Объекты -->
+    <section class="space-y-6">
+      <div class="border-l-4 border-red-700 pl-3">
+        <h3 class="text-xl font-bold text-slate-900">Реализованные проекты</h3>
+        <p class="text-xs text-slate-500">Участие в строительстве ведущих жилых комплексов Москвы и области</p>
+      </div>
+      <div class="grid sm:grid-cols-3 gap-4 text-sm">
+        <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm font-semibold text-slate-800">ЖК Прокшино</div>
+        <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm font-semibold text-slate-800">ЖК Деснаречье</div>
+        <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm font-semibold text-slate-800">ЖК Скандинавия</div>
+        <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm font-semibold text-slate-800">ЖК ДзенКварталы</div>
+        <div class="p-5 bg-white rounded-xl border border-slate-200 shadow-sm font-semibold text-slate-800">Зорге 9</div>
+        <div class="p-5 bg-slate-100 rounded-xl border border-slate-200 text-slate-500 flex items-center justify-center font-medium">И другие комплексы</div>
+      </div>
+    </section>
+
+    <!-- Спортивное спонсорство -->
+    <section class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+      <div class="border-l-4 border-red-700 pl-3">
+        <h3 class="text-xl font-bold text-slate-900">Социальная ответственность</h3>
+        <p class="text-xs text-slate-500">Поддержка спорта и подрастающего поколения</p>
+      </div>
+      <p class="text-slate-600 text-sm leading-relaxed">
+        Компания «Глав-Строй» на постоянной основе поддерживает развитие детского и юношеского спорта, выступая официальным партнером и спонсором спортивных школ, включая проект <strong>Nosov School</strong>.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="bg-white border-t border-slate-200 mt-16 py-8 text-xs text-slate-500">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row justify-between gap-4 text-center sm:text-left">
+      <div>ООО «Глав-Строй» • ИНН 7746713306 • ОГРН 1197746713306</div>
+      <div>© 2026 Все права защищены</div>
+    </div>
+  </footer>
+
+</body>
+</html>
