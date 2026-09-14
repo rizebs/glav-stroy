@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ООО «Глав-Строй» — Светопрозрачные конструкции и фасады</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] } } }
+    }
+  </script>
+  <style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-white text-neutral-900 font-sans antialiased selection:bg-red-600 selection:text-white">
+
+  <!-- Шапка бюро с крупным логотипом -->
+  <header class="border-b border-neutral-200 sticky top-0 bg-white/90 backdrop-blur-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="IMG_1172.jpeg" alt="Глав-Строй" class="h-20 sm:h-24 w-auto object-contain">
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/79255555558" target="_blank" class="px-4 py-2.5 rounded-xl bg-neutral-900 hover:bg-red-600 text-white text-xs font-bold flex items-center gap-2 transition">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
+        </a>
+        <a href="https://t.me/+79255555558" target="_blank" class="px-4 py-2.5 rounded-xl border border-neutral-300 hover:border-red-600 hover:text-red-600 text-neutral-900 text-xs font-bold flex items-center gap-2 transition">
+          <i class="fa-brands fa-telegram text-sm"></i> Telegram
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Контент в стиле high-end дизайн-бюро -->
+  <main class="max-w-6xl mx-auto px-6 py-16 space-y-24">
+    
+    <!-- Hero / Манифест -->
+    <section class="space-y-6 max-w-4xl">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-neutral-100 text-neutral-900 text-xs font-extrabold uppercase tracking-widest border border-neutral-200">
+        <span class="w-2 h-2 rounded-full bg-red-600"></span> Основано в 2019 году
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-neutral-900 leading-[1.1]">
+        Архитектурный масштаб. <span class="text-red-600">Бескомпромиссная точность.</span>
+      </h1>
+      <p class="text-neutral-600 text-lg sm:text-xl leading-relaxed font-normal">
+        ООО «Глав-Строй» проектирует и производит светопрозрачные системы полного цикла. Работаем на базе премиальных алюминиевых систем <strong>Алрокс</strong> и <strong>Татпроф</strong>, а также надежных ПВХ-решений <strong>Rehau</strong>, <strong>KBE</strong> и <strong>Brusbox</strong>.
+      </p>
+    </section>
+
+    <!-- Блок управления и реквизитов -->
+    <section class="grid md:grid-cols-2 gap-px bg-neutral-200 p-px rounded-3xl overflow-hidden border border-neutral-200">
+      <div class="bg-neutral-900 text-white p-8 sm:p-12 flex flex-col justify-between space-y-8">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-red-500 uppercase">Юридический статус</span>
+          <h2 class="text-3xl font-extrabold mt-2">ООО «Глав-Строй»</h2>
+        </div>
+        <div class="space-y-3 text-sm text-neutral-300 border-t border-neutral-800 pt-6">
+          <div class="flex justify-between">
+            <span class="text-neutral-500">ИНН</span>
+            <span class="font-bold text-white">7746713306</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">ОГРН</span>
+            <span class="font-bold text-white">1197746713306</span>
+          </div>
+          <div class="pt-3 border-t border-neutral-800 space-y-1">
+            <span class="text-neutral-500 text-xs block">Юридический адрес:</span>
+            <a href="https://yandex.ru/maps?text=55.508291,37.334786&si=9e4uaupz9efpcxumraen28wpbm" target="_blank" class="text-white font-medium hover:text-red-400 transition underline decoration-neutral-500 block leading-snug">
+              Москва, район Троицк, посёлок Ватутинки, 4-я Ватутинская улица, 7с26
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white text-neutral-900 p-8 sm:p-12 flex flex-col justify-between space-y-8">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-neutral-400 uppercase">Руководство</span>
+          <h3 class="text-2xl font-extrabold mt-2">Гнатишин В.В.</h3>
+          <p class="text-xs text-neutral-500 mt-1">Генеральный директор</p>
+        </div>
+        <div>
+          <a href="tel:79255555558" class="inline-flex items-center gap-3 text-2xl font-black text-neutral-900 hover:text-red-600 transition">
+            <i class="fa-solid fa-phone text-red-600 text-lg"></i> +7 (925) 555-55-58
+          </a>
+          <p class="text-xs text-neutral-400 mt-1">Прямая связь с первыми лицами</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Портфолио проектов с вашими фотографиями -->
+    <section class="space-y-10">
+      <div class="space-y-3 max-w-2xl">
+        <span class="text-xs font-bold tracking-widest uppercase text-red-600">Портфолио проектов</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-neutral-900 tracking-tight">НАМ ДОВЕРЯЮТ</h2>
+        <p class="text-neutral-600 text-base">Реализация сложных архитектурных концепций остекления в знаковых объектах столицы.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Прокшино -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="ЖК Прокшино" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">ПРОКШИНО</h3>
+          </div>
+        </div>
+
+        <!-- Скандинавия -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="ЖК Скандинавия" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">СКАНДИНАВИЯ</h3>
+          </div>
+        </div>
+
+        <!-- Дзен-Кварталы -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80" alt="ЖК ДзенКварталы" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">ДЗЕН-КВАРТАЛЫ</h3>
+          </div>
+        </div>
+
+        <!-- Зорге 9 -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Зорге 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">ЗОРГЕ 9</h3>
+          </div>
+        </div>
+
+        <!-- ЖК Южные сады (IMG_2934.jpeg) -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="IMG_2934.jpeg" alt="ЖК Южные сады" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">ЮЖНЫЕ САДЫ</h3>
+          </div>
+        </div>
+
+        <!-- ЖК Деснаречье (IMG_2935.webp) -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="IMG_2935.webp" alt="ЖК Деснаречье" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">ДЕСНАРЕЧЬЕ</h3>
+          </div>
+        </div>
+
+        <!-- ЖК Бунинские кварталы (IMG_2936.webp) -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="IMG_2936.webp" alt="ЖК Бунинские кварталы" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">БУНИНСКИЕ КВАРТАЛЫ</h3>
+          </div>
+        </div>
+
+        <!-- ЖК Картмазовские пруды (IMG_2937.webp) -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="IMG_2937.webp" alt="ЖК Картмазовские пруды" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ЖК]</span>
+            <h3 class="text-2xl font-extrabold tracking-tight">КАРТМАЗОВСКИЕ ПРУДЫ</h3>
+          </div>
+        </div>
+
+        <!-- Дополнительный объект / И многие другие -->
+        <div class="relative h-[300px] rounded-2xl overflow-hidden group shadow-md border border-neutral-200">
+          <img src="IMG_2938.jpeg" alt="Объекты Глав-Строй" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 p-6 flex flex-col justify-between text-white">
+            <span class="text-xs font-bold tracking-widest text-red-400 uppercase">[ОБЪЕКТЫ]</span>
+            <h3 class="text-xl font-extrabold tracking-tight">КОТТЕДЖИ И КОММЕРЦИЯ</h3>
+          </div>
+        </div>
+
+        <!-- Финальная карточка -->
+        <div class="p-8 bg-neutral-900 text-white rounded-2xl flex flex-col justify-center items-center text-center shadow-md h-[300px]">
+          <h3 class="text-base font-bold leading-relaxed">И МНОГИЕ ДРУГИЕ КВАРТИРЫ, КОТТЕДЖИ И КОММЕРЧЕСКИЕ ОБЪЕКТЫ МОСКВЫ И ОБЛАСТИ</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Социальная ответственность и галерея спортсменов -->
+    <section class="space-y-8">
+      <div class="border-l-4 border-red-600 pl-8 py-2 space-y-4 max-w-3xl">
+        <span class="text-xs font-bold tracking-widest uppercase text-red-600">Ценности и миссия</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-neutral-900">Инвестиции в характер и спорт</h2>
+        <p class="text-neutral-600 leading-relaxed text-base sm:text-lg">
+          Мы разделяем принципы силы, дисциплины и лидерства. «Глав-Строй» на постоянной основе выступает партнером и спонсором спортивных школ, включая легендарный проект <strong>Nosov School</strong>.
+        </p>
+      </div>
+
+      <!-- Лента с фотографиями спортсменов -->
+      <div class="relative pt-2">
+        <div class="flex gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-4">
+          
+          <div class="min-w-[300px] sm:min-w-[380px] bg-neutral-50 border border-neutral-200 rounded-2xl p-3 snap-center shrink-0 shadow-sm">
+            <img src="IMG_2927.jpeg" alt="Спортсмены Глав-Строй" class="w-full h-[280px] sm:h-[320px] object-cover rounded-xl">
+          </div>
+          <div class="min-w-[300px] sm:min-w-[380px] bg-neutral-50 border border-neutral-200 rounded-2xl p-3 snap-center shrink-0 shadow-sm">
+            <img src="IMG_2928.jpeg" alt="Спортсмены Глав-Строй" class="w-full h-[280px] sm:h-[320px] object-cover rounded-xl">
+          </div>
+          <div class="min-w-[300px] sm:min-w-[380px] bg-neutral-50 border border-neutral-200 rounded-2xl p-3 snap-center shrink-0 shadow-sm">
+            <img src="IMG_2929.jpeg" alt="Спортсмены Глав-Строй" class="w-full h-[280px] sm:h-[320px] object-cover rounded-xl">
+          </div>
+          <div class="min-w-[300px] sm:min-w-[380px] bg-neutral-50 border border-neutral-200 rounded-2xl p-3 snap-center shrink-0 shadow-sm">
+            <img src="IMG_2930.jpeg" alt="Спортсмены Глав-Строй" class="w-full h-[280px] sm:h-[320px] object-cover rounded-xl">
+          </div>
+          <div class="min-w-[300px] sm:min-w-[380px] bg-neutral-50 border border-neutral-200 rounded-2xl p-3 snap-center shrink-0 shadow-sm">
+            <img src="IMG_2931.jpeg" alt="Спортсмены Глав-Строй" class="w-full h-[280px] sm:h-[320px] object-cover rounded-xl">
+          </div>
+
+        </div>
+        <p class="text-xs text-neutral-400 text-center mt-3">← Листайте фотографии вбок →</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Подвал бюро -->
+  <footer class="border-t border-neutral-200 mt-32 py-12 bg-neutral-50 text-xs text-neutral-500">
+    <div class="max-w-6xl mx-auto px-6 space-y-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+        <div class="space-y-1.5">
+          <div class="font-bold text-neutral-900 text-sm">ООО «Глав-Строй» • ИНН 7746713306 • ОГРН 1197746713306 • Основана в 2019 году</div>
+          <div class="text-neutral-600">Адрес: г. Троицк ул. 4-я Ватутинская д.7 | Телефон: <a href="tel:79255555558" class="text-red-600 hover:underline font-bold">+7 (925) 555-55-58</a></div>
+        </div>
+        <div class="flex flex-wrap gap-6 font-bold text-neutral-900 text-xs">
+          <a href="#" class="hover:text-red-600 transition">Пользовательское соглашение</a>
+          <a href="#" class="hover:text-red-600 transition">Политика конфиденциальности</a>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row justify-between items-center pt-6 border-t border-neutral-200 gap-4 text-center sm:text-left">
+        <div>© 2026 Все права защищены</div>
+        <div class="flex gap-6 font-bold text-neutral-900">
+          <a href="https://wa.me/79255555558" target="_blank" class="hover:text-red-600 transition">WhatsApp</a>
+          <a href="https://t.me/+79255555558" target="_blank" class="hover:text-red-600 transition">Telegram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
